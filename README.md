@@ -30,10 +30,11 @@ $ pol -h
 ...
 ```
 
-## Init LabelX dev
-
+## Getting Started
 ```bash
-$ pol init [name]
+$ npm i polix-cli -g
+$ pol init example && cd example
+$ make build && make dev
 ```
 
 ## License
