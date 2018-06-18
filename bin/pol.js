@@ -49,14 +49,21 @@ program
 
       log.info('Install dependencies');
 
-      return spawn('yarn', ['install'], {
+      return spawn('npm', ['i'], {
         cwd: path,
         stdio: 'inherit'
       });
     }).then(function () {
-      log.info('Start dev with Polix!');
+      return spawn('npm', ['i', 'polix', '--save'], {
+        cwd: path,
+        stdio: 'inherit'
+      }).then(function(){
+        log.info('Start dev with Polix!');
+      }).catch(function (){
+        log.warn('Failed to install dependencies. Please run \'yarn add polix\' manually!');
+      });
     }).catch(function () {
-      log.warn('Failed to install dependencies. Please run \'npm install\' manually!');
+      log.warn('Failed to install dependencies. Please run \'yarn install\' manually!');
     });
   });
 
