@@ -1,6 +1,6 @@
 {
   "name": "polix-cli",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "polix cli",
   "main": "index.js",
   "bin": {
