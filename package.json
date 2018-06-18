@@ -1,0 +1,37 @@
+{
+  "name": "polix-cli",
+  "version": "0.0.6",
+  "description": "polix cli",
+  "main": "index.js",
+  "bin": {
+    "pol": "./bin/pol.js"
+  },
+  "scripts": {
+    "pol": "pol info"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "chalk": "^2.3.2",
+    "commander": "^2.15.1",
+    "hexo-util": "^0.6.3",
+    "moment": "^2.22.0",
+    "util": "^0.10.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polixjs/cli.git"
+  },
+  "keywords": [
+    "polix",
+    "cli"
+  ],
+  "author": "zhoumq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/polixjs/cli/issues"
+  },
+  "homepage": "https://github.com/polixjs/cli#readme"
+}
