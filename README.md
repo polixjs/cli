@@ -10,6 +10,7 @@
 [![NPM](https://nodei.co/npm/polix-cli.png?compact=true)](https://nodei.co/npm/polix-cli/)
 > `npm i polix-cli -g`
 
+
 ## Usage
 
 ```bash
