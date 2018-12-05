@@ -1,6 +1,6 @@
 {
   "name": "polix-cli",
-  "version": "0.0.10",
+  "version": "0.1.0",
   "description": "polix cli",
   "main": "index.js",
   "bin": {
@@ -17,6 +17,7 @@
     "chalk": "^2.3.2",
     "commander": "^2.15.1",
     "hexo-util": "^0.6.3",
+    "inquirer": "^6.2.1",
     "moment": "^2.22.0",
     "util": "^0.10.3"
   },
