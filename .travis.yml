@@ -6,4 +6,4 @@ node_js:
 script:
 - npm i
 - npm i polix-cli -g
-- pol init
+- pol -v
