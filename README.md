@@ -34,8 +34,7 @@ $ pol -h
 ## Getting Started
 ```bash
 $ npm i polix-cli -g
-$ pol init example && cd example
-$ make build && make dev
+$ pol init example
 ```
 
 ## License
